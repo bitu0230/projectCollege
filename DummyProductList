@@ -1,0 +1,72 @@
+[
+  {
+    "productId": "1",
+    "productName": "Iphone14",
+    "productPrice": 100000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "2",
+    "productName": "Iphone13",
+    "productPrice": 90000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "3",
+    "productName": "Iphone12",
+    "productPrice": 80000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "4",
+    "productName": "Iphone11",
+    "productPrice": 70000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "5",
+    "productName": "Iphone10",
+    "productPrice": 60000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "6",
+    "productName": "Iphone9",
+    "productPrice": 50000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "7",
+    "productName": "Iphone8",
+    "productPrice": 40000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "8",
+    "productName": "Iphone7",
+    "productPrice": 30000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "9",
+    "productName": "Iphone6",
+    "productPrice": 20000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  },
+  {
+    "productId": "10",
+    "productName": "Iphone5",
+    "productPrice": 10000,
+    "productDesc": "The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.",
+    "productImg": "https://www.aptronixindia.com/media/catalog/product/i/p/iphone_14_pro_deep_purple_pdp_image_position-1a_avail__en-in.jpg"
+  }
+]

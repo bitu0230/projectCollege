@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".activities.ProductViewActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_marginTop="@dimen/padding_8"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ib_back_product_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:background="@color/white"
+            android:src="@drawable/baseline_arrow_back_24">
+        </ImageButton>
+        <TextView
+            android:id="@+id/tv_header_product_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85">
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ImageView
+        android:id="@+id/iv_product_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_12"
+        android:layout_weight="0.45">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/tv_product_name_product_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_margin="@dimen/padding_12"
+        android:text="@string/processor_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/padding_24">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.07"
+        android:layout_margin="@dimen/padding_8"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:text="@string/Rs"
+            android:layout_margin="@dimen/padding_4"
+            android:textColor="@color/red"
+            android:textSize="@dimen/padding_24">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_product_price_product_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:text="@string/product_price"
+            android:layout_margin="@dimen/padding_4"
+            android:textColor="@color/red"
+            android:textSize="@dimen/font_20">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_product_color_product_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginTop="@dimen/padding_4"
+            android:layout_marginBottom="@dimen/padding_4"
+            android:layout_marginLeft="@dimen/padding_12"
+            android:layout_marginRight="@dimen/padding_12"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16"
+            android:text="@string/color"
+            android:gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.16"
+        android:weightSum="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/tv_product_RAM_product_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginTop="@dimen/padding_4"
+                android:layout_marginBottom="@dimen/padding_4"
+                android:layout_marginLeft="@dimen/padding_12"
+                android:layout_marginRight="@dimen/padding_12"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16"
+                android:text="@string/RAM"
+                android:gravity="center"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_storage_product_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginTop="@dimen/padding_4"
+                android:layout_marginBottom="@dimen/padding_4"
+                android:layout_marginLeft="@dimen/padding_12"
+                android:layout_marginRight="@dimen/padding_12"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16"
+                android:text="@string/storage"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/tv_battery_product_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginTop="@dimen/padding_4"
+                android:layout_marginBottom="@dimen/padding_4"
+                android:layout_marginLeft="@dimen/padding_12"
+                android:layout_marginRight="@dimen/padding_12"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16"
+                android:text="@string/battery"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_processor_product_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16"
+                android:text="@string/processor_name"
+                android:layout_weight="0.5"
+                android:layout_marginTop="@dimen/padding_4"
+                android:layout_marginBottom="@dimen/padding_4"
+                android:layout_marginLeft="@dimen/padding_12"
+                android:layout_marginRight="@dimen/padding_12"
+                android:gravity="center">
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+        android:layout_margin="@dimen/padding_12"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/tv_select_merchant_product_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:text="@string/select_merchant"
+            android:layout_marginLeft="@dimen/padding_4"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_20">
+
+        </TextView>
+        <Spinner
+            android:id="@+id/action_bar_spinner_product_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:layout_margin="@dimen/padding_4"
+            android:autofillHints="name">
+
+        </Spinner>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.09"
+        android:weightSum="1"
+        android:padding="@dimen/padding_0.5"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_add_to_cart_product_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/add_to_cart"
+            android:textSize="@dimen/font_24"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:layout_weight="1">
+
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

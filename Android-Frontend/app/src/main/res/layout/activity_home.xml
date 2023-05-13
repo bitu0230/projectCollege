@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.09"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/ib_dropdown_menu_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/purple_500">
+
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/brand_name"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textSize="@dimen/font_24"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_weight="0.6">
+
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/font_20"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_weight="0.2">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_margin="12dp"
+        android:layout_weight="0.09"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/samsung"
+            android:id="@+id/iv_samsung_icon"
+            android:paddingLeft="10sp"
+            android:layout_weight="0.2"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:layout_weight="0.2"
+            android:id="@+id/iv_apple_icon"
+            android:src="@drawable/apple"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:layout_weight="0.2"
+            android:id="@+id/iv_oppo_icon"
+            android:src="@drawable/oppo"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:layout_weight="0.2"
+            android:id="@+id/iv_nokia_icon"
+            android:src="@drawable/nokia"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:id="@+id/iv_mi_icon"
+            android:layout_weight="0.2"
+            android:src="@drawable/mi"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:layout_weight="0."
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_margin="@dimen/padding_12"
+        android:layout_weight="0.08">
+
+        <SearchView
+            android:layout_weight="1"
+            android:id="@+id/sv_home_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="Search here"
+            android:background="@drawable/layout_border"
+            />
+
+    </LinearLayout>
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        app:iss_auto_cycle="true"
+        app:iss_delay="0"
+        app:iss_period="1500"
+        app:iss_corner_radius="20"
+        android:id="@+id/iv_slider_home_page"
+        android:layout_margin="12dp"
+        android:src="@drawable/home_page"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv_vertical_home"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/padding_12"
+        android:layout_weight="0.35"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.06"
+        android:weightSum="1"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ib_home_home_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:scaleType="fitCenter"
+            android:background="@color/white"
+            android:src="@drawable/baseline_home_24">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="0dp"
+            android:id="@+id/ib_order_history_home_page"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:scaleType="fitCenter"
+            android:background="@color/white"
+            android:src="@drawable/baseline_settings_backup_restore_24">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="0dp"
+            android:id="@+id/ib_cart_home_page"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_shopping_cart_24"
+            android:layout_weight="0.25"
+            android:background="@color/white"
+            >
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="0dp"
+            android:id="@+id/ib_user_profile_home_page"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:scaleType="fitCenter"
+            android:src="@drawable/round_person_pin_24"
+            android:background="@color/white"
+            >
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

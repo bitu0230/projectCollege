@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08"
+            android:orientation="horizontal"
+            android:background="@color/purple_500"
+            android:weightSum="1">
+            <ImageButton
+                android:id="@+id/ib_back_check_out"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/purple_500"
+                android:src="@drawable/baseline_arrow_back_24_white"
+                android:layout_weight="0.2">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:text="@string/check_out"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="@dimen/font_20">
+
+            </TextView>
+            <ImageButton
+                android:id="@+id/ib_cancel_check_out"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/purple_500"
+                android:src="@drawable/outline_cancel_24"
+                android:layout_weight="0.2">
+
+            </ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0.2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/baseline_shopping_cart_checkout_24"
+                android:layout_weight="0.4">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/font_20"
+                android:text="@string/order_summary"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="0.4">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:weightSum="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_weight="0.15">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginLeft="@dimen/padding_20"
+                    android:layout_weight="0.2">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05"
+                    android:textSize="@dimen/font_20"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_userName_respose_user_profile_page"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginLeft="@dimen/padding_20"
+                    android:layout_weight="0.75">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_weight="0.3">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_20"
+                    android:layout_marginLeft="@dimen/padding_20"
+                    android:text="@string/total"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_weight="0.45">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05"
+                    android:text=":"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_20"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:text="@string/Rs"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_20"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/padding_8"
+                    android:textColor="@color/red">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_total_check_out"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/red"
+                    android:text="@string/total"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/font_20"
+                    android:layout_weight="0.4">
+
+                </TextView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16"
+                android:gravity="bottom"
+                android:layout_marginLeft="@dimen/padding_16"
+                android:text="@string/add_delivery_address">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_address_check_out"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:hint="@string/enter_here"
+                android:background="@drawable/layout_border"
+                android:textSize="@dimen/font_16"
+                android:layout_margin="@dimen/padding_16"
+                android:inputType="textEmailAddress|textMultiLine"
+                android:lines="5"
+                android:minLines="3"
+                android:textStyle="bold"
+                android:gravity="top|left"
+                android:textColor="@color/black"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical">
+
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.14">
+            <ProgressBar
+                android:id="@+id/pb_check_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+            </ProgressBar>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_confirm_check_out"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08"
+            android:textColor="@color/black"
+            android:background="@color/yellow"
+            android:textSize="@dimen/padding_20"
+            android:text="@string/confirm_check_out"
+            android:gravity="center">
+
+        </TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

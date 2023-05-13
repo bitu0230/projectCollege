@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "id": {
+      "type": "keyword"
+    },
+    "productName": {
+      "type": "text"
+    },
+    "productColor": {
+      "type": "text"
+    },
+    "productStorage": {
+      "type": "text"
+    },
+    "productRAM": {
+      "type": "text"
+    },
+    "productProcessor": {
+      "type": "text"
+    },
+    "productBattery": {
+      "type": "text"
+    }
+  }
+}

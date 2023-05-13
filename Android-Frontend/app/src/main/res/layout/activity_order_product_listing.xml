@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_products_page"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.070">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ib_back_order"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_weight="0.1"
+            android:background="@color/white"
+            android:layout_margin="@dimen/padding_8">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_header_order"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="@dimen/padding_4"
+            android:text="@string/order_history"
+            android:textSize="@dimen/padding_20"
+            android:layout_weight="0.6">
+
+        </TextView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.930"
+        >
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/pb_loading_products_page">
+
+        </ProgressBar>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view_order_product_listing">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

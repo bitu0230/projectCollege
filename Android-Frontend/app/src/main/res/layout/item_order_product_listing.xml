@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_4"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_8"
+        app:cardCornerRadius="@dimen/padding_16">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/iv_order_image_product_listing"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_8"
+                android:layout_weight="0.3"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tv_order_name_product_listing"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textColor="@color/black"
+                    android:text="product name"
+                    android:layout_marginLeft="@dimen/padding_8"
+                    android:textSize="@dimen/font_16"
+                    android:textStyle="bold"
+                    android:layout_weight="0.2">
+                </TextView>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/tv_product_price"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="product price"-->
+                <!--                    android:textColor="@color/red"-->
+                <!--                    android:layout_margin="@dimen/padding_4"-->
+                <!--                    android:textSize="16sp">-->
+
+                <!--                </TextView>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tv_order_price_product_listing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:layout_marginTop="@dimen/padding_4"
+                        android:layout_marginBottom="@dimen/padding_4"
+                        android:layout_marginLeft="@dimen/padding_12"
+                        android:layout_marginRight="@dimen/padding_12"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/font_16"
+                        android:text="@string/product_price"
+                        android:gravity="center_vertical">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tv_order_RAM_product_listing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:layout_marginTop="@dimen/padding_4"
+                        android:layout_marginBottom="@dimen/padding_4"
+                        android:layout_marginLeft="@dimen/padding_12"
+                        android:layout_marginRight="@dimen/padding_12"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_12"
+                        android:text="@string/RAM"
+                        android:gravity="center"
+                        >
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tv_order_storage_product_listing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:layout_marginTop="@dimen/padding_4"
+                        android:layout_marginBottom="@dimen/padding_4"
+                        android:layout_marginLeft="@dimen/padding_12"
+                        android:layout_marginRight="@dimen/padding_12"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_12"
+                        android:text="@string/storage"
+                        android:gravity="center">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tv_order_battery_product_listing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:layout_marginTop="@dimen/padding_4"
+                        android:layout_marginRight="@dimen/padding_12"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_12"
+                        android:text="@string/battery"
+                        android:gravity="center">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:paddingTop="@dimen/padding_4"
+                    android:layout_marginLeft="@dimen/padding_12"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.175"
+                        android:text="@string/qty"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_order_quantity_product_listing"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.15"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:layout_margin="@dimen/padding_4"
+                        android:background="@drawable/layout_border"
+                        android:inputType="number">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.025">
+
+                    </TextView>
+
+<!--                    <Button-->
+<!--                        android:id="@+id/button_view_details_order_product_listing"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="0.6"-->
+<!--                        android:text="@string/view_details"-->
+<!--                        android:textSize="10sp"-->
+<!--                        android:background="@drawable/buttow_round_corner"-->
+<!--                        android:textColor="@color/white">-->
+
+<!--                    </Button>-->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.6">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.050">
+
+                    </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/pb_loading_products_pagenation">
+
+    </ProgressBar>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
